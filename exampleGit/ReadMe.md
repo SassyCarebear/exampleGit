@@ -1,2 +1,2 @@
-#My Git Project
-##Cara Jones
+# My Git Project
+## Cara Jones
