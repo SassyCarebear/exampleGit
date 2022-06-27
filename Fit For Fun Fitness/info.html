@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  <!--
+      Author:     Cara Jones
+      Date:       June 26, 2022
+      Assignment: Fit for Fun Fitness Club
+      File:       index.html
+  -->
+    <meta charset="utf-8">
+    <title>Fit for Fun Fitness Club</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <img src="groupWorkout2.jpg" alt="">
+      <h1>Fit for Fun Fitness Club</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="classes.html">Class Schedule</a></li>
+          <li><a href="info.html">SIGN UP</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h3>Class Sign Up</h3>
+    <div class="container">
+      <form method="get" action="thankyou.html" target="_blank">
+        <fieldset class="contactInfo">
+          <legend>
+            Contact Information
+          </legend>
+            <label for="fname">Name:
+                <input autofocus type="text" name="fname" id="fname" required placeholder="First Name"/></label>
+            <label for="lname">Last Name:
+                <input type="text" name="lname" id="lname" required placeholder="Last Name"/></label>
+            <label for="email">Email:
+                <input type="email" name="email" id="email" required placeholder="Email"/></label>
+            <label for="phone">Phone:
+                <input type="tel" name="phone" id="phone"  required placeholder="Phone Number"/></label>
+            <label for="contact">Best Way To Contact You
+                <select name="contact" id="contact">
+                  <option value="call">Call</option>
+                  <option value="text">Text</option>
+                  <option value="owl">OWL</option>
+                  <option value="email">Email</option>
+                  <option value="messenger">Messenger</option>
+                </select>
+            </label>
+          </fieldset>
+          <fieldset class="classes">
+            <legend>
+              Classes Offered
+            </legend>
+            <fieldset class="timeOfDay">
+              <legend>Time Of Day</legend>
+              <label for="am">AM
+                <input type="radio" id="am" name="am" value="am"></label>
+              <label for="pm">PM
+                <input type="radio" id="pm" name="am" value="pm"></label>
+            </fieldset>
+            <label for="class1">
+              <input type="checkbox" id="class1" name="class1" value="Cross Training"> Cross Training</label>
+            <label for="class2">
+              <input type="checkbox" id="class2" name="class2" value="Sprint">Sprint</label>
+            <label for="class3">
+              <input type="checkbox" id="class3" name="class3" value="Spin">Spin</label>
+            <label for="class4">
+              <input type="checkbox" id="class4" name="class4" value="BodyPump">BodyPump</label>
+            <label for="class5">
+                <input type="checkbox" id="class5" name="class5" value="Body Combat">BodyCombat</label>
+            <label for="class6">
+              <input type="checkbox" id="class6" name="class6" value="Step Interval">Step Interval</label>
+            <label for="class7">
+              <input type="checkbox" id="class7" name="class7" value="Advanced Cross Training">Advanced Cross Training</label>
+            <label for="class8">
+              <input type="checkbox" id="class8" name="class8" value="MixxedFIT">MixxedFIT</label>
+            <label for="class9">
+              <input type="checkbox" id="class9" name="class9" value="Zumba">Zumba</label>
+            </fieldset>
+            <fieldset>
+              <legend>
+                Restrictions
+              </legend>
+              <textarea name="extaInfo" rows="4" cols="50">
+              </textarea>
+            </fieldset>
+          <input class="submit" type="submit" value="Submit"/>
+      </form>
+    </div>
+    <footer>
+      <div>
+        Fit for Fun Fitness Club &#8226; 1055 Workout Dr
+        &#8226; Bolivar, Mo 65613
+      </div>
+      <div>
+        <a href="tel:+4175126228">(417)512-6228</a> &#8226;
+        <a href="mailto:fitforfunfitness@gmail.com">
+          fitforfunfitness@gmail.com</a>
+      </div>
+    </footer>
+  </body>
+
+</html>
